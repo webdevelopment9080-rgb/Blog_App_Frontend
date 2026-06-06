@@ -1,11 +1,11 @@
 import axios from 'axios'
 
 
-let API_BASE_URL = import.meta.env.API_BASE_URL ||'http://localhost:3000/api/v1'
+let VITE_API_BASE_URL = import.meta.env.VITE_API_BASE_URL ||'http://localhost:3000/api/v1'
 
 const api = axios.create({
 
-    baseURL: API_BASE_URL
+    baseURL: VITE_API_BASE_URL
 
 })
 
